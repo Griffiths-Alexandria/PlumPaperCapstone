@@ -1,0 +1,54 @@
+
+<div>
+
+        <script type = "text/javascript">
+            function displayNextImage() {
+                x = (x === images.length - 1) ? 0 : x + 1;
+                document.getElementById("banner").src = images[x];
+            }
+
+            function displayPreviousImage() {
+                x = (x <= 0) ? images.length - 1 : x - 1;
+                document.getElementById("banner").src = images[x];
+            }
+
+            function startTimer() {
+                setInterval(displayNextImage, 10000);
+            }
+
+            var images = [], x = -1;
+            images[3] = "images/home_banner_1.png";
+            images[5] = "images/home_banner_2.png";
+            images[6] = "images/home_banner_1.png";
+            images[2] = "images/home_banner_2.png";
+            images[0] = "images/homebannerN.png";
+            images[1] = "images/homebannerOL.png";
+
+        </script>
+
+
+            <div>
+                <img id="banner" src="images/home_banner_1.png"/> 
+            </div>
+
+            <div id="designhandmade">
+                <a href="shop.html"><img src="images/designyourowncover.png" alt="design" id="design"></a>
+                <img src="images/allproducts.png" alt="handmade" id="handmade">
+            </div>
+
+            <div class="upperdivider">
+                <img src="images/home_divider_line.png" alt="divider">
+            </div>
+
+            <div id="homepp">
+                <img src="images/home_pp.png" alt="plumpaper">
+            </div>
+
+            <div id="roundbuttons">
+                <a href="products.html"><img src="images/home_circle_1.png" alt="homecirleplanner" id="round1"></a>
+                <a href="addons.html"><img src="images/home_circle_2.png" alt="homecirleaddon" id="round2"></a>                
+                <a href="shop.html"><img src="images/home_circle_3.png" alt="homecirleshop" id="round3"></a>
+            </div>
+
+           
+</div>
