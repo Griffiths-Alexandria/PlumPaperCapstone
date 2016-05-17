@@ -12,7 +12,6 @@ and open the template in the editor.
     font-family: 'contax_pro_45_ligregular',Helvetica,Arial,sans-serif;
 }
 
-
 body {
    
     /* height: 1200px; */
@@ -25,6 +24,124 @@ body {
     color: #be69a1;
     background-color: #fff;
 }
+
+
+/******PRODUCT LANDING PAGE*******/
+.view {
+   width: 300px;
+   height: 200px;
+   margin: 10px;
+   float: left;
+   border: 10px solid #fff;
+   overflow: hidden;
+   position: relative;
+   text-align: center;
+   -webkit-box-shadow: 1px 1px 2px #e6e6e6;
+   -moz-box-shadow: 1px 1px 2px #e6e6e6;
+   box-shadow: 1px 1px 2px #e6e6e6;
+   cursor: default;
+   background: #a4ddca url(../images/bgimg.jpg) no-repeat center center;
+}
+.view .mask,.view .content {
+   width: 300px;
+   height: 200px;
+   position: absolute;
+   overflow: hidden;
+   top: 0;
+   left: -10px;
+}
+.view img {
+   display: block;
+   position: relative;
+}
+.view h2 {
+   text-transform: uppercase;
+   color: #fff;
+   text-align: center;
+   position: relative;
+   font-size: 17px;
+   padding: 10px;
+   background: rgba(0, 0, 0, 0.8);
+   margin: 20px 0 0 0;
+}
+.view p {
+   font-family: Georgia, serif;
+   font-style: italic;
+   font-size: 12px;
+   position: relative;
+   color: #fff;
+   padding: 10px 20px 20px;
+   text-align: center;
+}
+.view a.info {
+   display: inline-block;
+   text-decoration: none;
+   padding: 7px 14px;
+   background: #777777;
+   color: #fff;
+   text-transform: uppercase;
+   -webkit-box-shadow: 0 0 1px #777777;
+   -moz-box-shadow: 0 0 1px #777777;
+   box-shadow: 0 0 1px #777777;
+}
+.view a.info:hover {
+   -webkit-box-shadow: 0 0 5px #777777;
+   -moz-box-shadow: 0 0 5px #777777;
+   box-shadow: 0 0 5px #777777;
+}
+
+.view-tenth img { 
+	transform: scaleY(1);
+	transition: all 0.7s ease-in-out;
+}
+.view .view-tenth .mask { 
+    background-color: rgba(255, 231, 179, 0.3); 
+    transition: all 0.5s linear;
+    opacity: 0;
+}	
+.view-tenth h2{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    background: transparent;
+    margin: 20px 40px 0px 40px;
+    transform: scale(0);
+    color: #fff;
+    transition: all 0.5s linear;
+    opacity: 0;
+}
+.view-tenth p {
+    color: #fff;
+    opacity: 0;
+    transform: scale(0);
+    transition: all 0.5s linear;
+}
+.view-tenth a.info { 
+    opacity: 0;
+    transform: scale(0);
+    transition: all 0.5s linear;
+}
+
+.view-tenth:hover img { 
+	transform: scale(10);
+    opacity: 0;
+}
+.view-tenth:hover .mask { 
+	opacity: 1;
+}																			 
+.view-tenth:hover h2,
+.view-tenth:hover p,
+.view-tenth:hover a.info{ 
+    transform: scale(1);
+    opacity: 1;
+}
+
+.buttonlanding {
+    padding-top: 30px;
+    width: 60%;
+    display: inline-block;
+    margin-left: 200px;
+    position: relative;
+}
+
 
 #mobile {
     display: none;
@@ -72,10 +189,23 @@ body {
 
 /**** SHOP PAGE *******/
 
+.lishort {
+    width: 300px;
+    float: left;
+    position: relative;
+}
+
+.unorderedlist {
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 150px;
+}
+
 ul, ol {
     margin-top: 0;
     margin-bottom: 10px;
     padding-left: 20px;
+
 }
 
 .bundle {
@@ -155,17 +285,29 @@ ul, ol {
 
 .orderbutton {
     color: #fff;
-    background-color: #a4ddca;
-    border-color: #a4ddca;
-    width: 80%; 
+    background-color: #be69a1;
+    border-color: #be69a1;
+    width: 100%; 
     padding: 20px;
+    display:block;
+    margin: auto;
+}
+
+.addonheader2 {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    width: 80%;
 }
 
 .orderbutton:hover {
     color: #fff;
-    background-color: #be69a1;
-    border-color: #be69a1;
+    background-color: #777777;
+    border-color: #777777;
+    width: 100%; 
     padding: 20px;
+    display:block;
+    margin: auto;
 }
 
 .shopheader {
@@ -182,8 +324,8 @@ ul, ol {
 #shopCarousel {
     width: 100%;
     /* margin: auto; */
-    margin-left: 45px;
-    margin-top: 30px; 
+    margin-left: 0px;
+    margin-top: 5px; 
 }
 
 a.leftcontrol {
@@ -235,30 +377,50 @@ a.rightcontrol {
     /* padding-bottom: 0px; */
 }
 
+.carousel-indicators .active {
+    margin: 0;
+    width: 12px;
+    height: 12px;
+    background-color: #929395;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    border: 1px solid #929395;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #000 \9;
+    background-color: rgba(0,0,0,0);
+}
+
 #car {
     float:left;
-    width: 63%;
+    width: 100%;
 }
 
 #desc {
-    float: right;
-    width: 30%;
-    margin-right: 70px;
+   /* float: right; */
+    width: 100%;
+  /*  margin-right: 70px;*/
     color: #929395;
     display: block;
-    margin-top: 10px;
-
-
+    margin: auto;
 }
-
 
 
 #desc h3 {
     color: #be69a1;
+    margin-top: 0px;
+    text-align: center;
 }
 
 #desc h4 {
-    color: #a4ddca
+    color: #a4ddca;
+    text-align: center;
 }
 
 #order img {
@@ -449,6 +611,7 @@ area {
 }
 
 
+
 .navbar-default .navbar-nav>li>a {
     font-family: Open Sans;
     font-weight: 100;
@@ -458,9 +621,10 @@ area {
     height: 25px;
     color: #777777;
     text-decoration: none;
-    font-size: 12.5px;
+    font-size: 14px;
     margin-left: 25px;
     margin-right: 25px;
+    letter-spacing: 1px;
 }
 
 
@@ -1118,13 +1282,13 @@ map {
 #abouttxt {
     padding-left: 75px;
     /* padding-right: 55px; */
-    margin-top: 70px;
-    position: absolute;
+    margin-top: 20px;
+    position: relative;
     width: 1000px;
 }
 
 .header img{
-    position: absolute;
+    position: relative;
     display: inline-block;
     /* margin-left: 45px; */
     text-align: center;
@@ -1138,7 +1302,7 @@ map {
 #aboutimages {
     position: relative;
     width: 100%; 
-    margin-top: 300px;
+    margin-top: 50px;
 }
 
 #aboutimages img {
@@ -1395,6 +1559,41 @@ br {
     color: #929395;
 }
 
+.addonbutton2{
+    text-align: center;
+    width: 80px;
+    background-color: #a4ddca;
+    height: 70px;
+    margin-top: 10px;
+    color: #fff;
+    font-size: .75em;
+
+    display: table-column;
+    position: relative;
+    vertical-align: top;
+}
+
+.addondesc {
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.addonbutton2:hover {
+    background-image: none;
+    text-align: center;
+    width: 80px;
+    background-color: #c2c3c5;
+    height: 70px;
+    margin-top: 10px;
+    color: #fff;
+    font-size: .75em;
+
+    display: table-column;
+    position: relative;
+    vertical-align: top;
+    padding-left: 5px;
+}
 
 .addonbutton:hover {
     width: 150px;
@@ -1465,6 +1664,13 @@ button:focus {outline:0;}
 .limits {
     width: 100%;
     position: relative;
+        display: block;
+    /* margin: auto; */
+
+    padding-top: 3em;
+    /* float: right; */
+    margin-left: 220px;
+    height: 200px;
 }
 
 .limits img {
@@ -1475,6 +1681,7 @@ button:focus {outline:0;}
     padding-top: 3em;
     /* float: right; */
     margin-left: 220px;
+    height: 200px;
     /* margin-top: 10px; */
 }
 
@@ -1535,6 +1742,8 @@ button:focus {outline:0;}
     text-align: left;
     margin-top: 5px;
 }
+
+
 
     @media screen and (max-width: 992px){
         .carousel-caption h3 {

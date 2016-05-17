@@ -25,8 +25,13 @@ and open the template in the editor.
         <script src="bootstrap/config.json"></script>
 
         <script src=".js/angular.min.js"></script>
-        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.29/angular-route.js"></script>        
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.29/angular-route.js"></script> 
+        <script src="//angular-ui.github.io/ui-router/release/angular-ui-router.js"></script>
         <script src=".js/script.js"></script>
+        <script src=".js/ui-bootstrap-tpls-1.3.2.min.js"></script>
+        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.10.0/ui-bootstrap-tpls.min.js"></script>
+
+
 
         <title>Plum Paper</title>
 
@@ -78,13 +83,11 @@ and open the template in the editor.
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav">
-                                <li class="navimage"><a href="#" title="Home" id="home">home</a></li>
+                                <li class="navimage"><a href="#index" title="Home" id="home">home</a></li>
                                 <li class="navimage"><a href="#products" title="products">learn about our products</a>
 
                                 </li>
-                                <li class="navimage"><a href="#addons" title="addons">learn about our add ons</a>
 
-                                </li>
                                 <li class="navimage"><a href="#shop" title="shop">shop</a></li>
                                 <li class="navimage"><a href="http://plumpaper.desk.com/customer/portal/emails/new" title="faqs">support</a>
 
@@ -109,22 +112,19 @@ and open the template in the editor.
             </div>
             <!-- END NAV -->
 
-
-                        
-            
             <!-- MAIN CONTENT AND INJECTED VIEWS -->
             <div id="main" ng-controller="mainController">
-                
-                
-               <!--<p>{{ message }}</p>-->
-               
-               <div ng-view></div>
 
-               
+
+                <!--<p>{{ message }}</p>-->
+
+                <div ng-view></div>
+
+
             </div>
-            
 
-            
+
+
             <!--FOoTER-->
 
             <div id="footer">
@@ -159,7 +159,7 @@ and open the template in the editor.
                     <div id="center">
                         <img src="images/bottom_nav_line_1.png" alt="divider">
                         <p class="footertext" id="rightabout">
-                            <a href='about.html'>ABOUT</a> <br> 
+                            <a href='#about'>ABOUT</a> <br> 
                             <a href='http://plumpaper.desk.com/customer/portal/emails/new'>CONTACT</a> 
                         </p>
                     </div>
@@ -167,7 +167,7 @@ and open the template in the editor.
                         <img src="images/bottom_nav_line_1.png" alt="divider">
                         <p class="footertext" id="changesreturns">
                             <a href='http://plumpaper.desk.com/customer/portal/emails/new'>FAQs</a> <br> 
-                            <a href='products.html'>PRODUCTS</a>
+                            <a href='#products'>PRODUCTS</a>
                         </p>
                     </div>
 
