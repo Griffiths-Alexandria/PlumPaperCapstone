@@ -1,0 +1,2343 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 10, 2016, 10:27:04 AM
+    Author     : Alexandria Lenz
+*/
+
+
+body {
+    background-image: url(images/background.jpg);
+    /* height: 1200px; */
+    z-index: -1;
+    margin-bottom: 0px;
+    /* margin: 10px; */
+    font-family: 'contax_pro_45_ligregular',Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #be69a1;
+    background-color: #fff;
+}
+
+#mobile {
+    display: none;
+    font-family: 'contax_pro_45_ligregular',sans-serif;
+    font-size: 14px;
+    color: #be69a1;
+    position: relative;
+    margin: auto;
+    text-align: center;
+}
+
+#signup {
+    font-family: 'contax_pro_45_ligregular',sans-serif;
+    padding-left: 69em;
+    background-color: #fff;
+    z-index: 8;
+    height: 2em;
+    position: relative;
+    padding-top: 40px;
+    display: inline-block;
+    padding-right: 4em;
+}
+
+#signup a {
+    text-decoration: none;
+    color: #be69a1;
+}
+
+#cart {
+    color: #DADADC;
+    font-size: 1.5em;
+    top: 4px;
+}
+
+.body {
+    width: 1100px;
+    margin: auto;
+    display: block;
+    background-color: #fff;
+    z-index:0;
+    margin-top: -2em;
+    /* height: 1300px; */
+}
+
+/***** HOME PAGE ******/
+
+#banner {
+    display: block;
+    margin: auto;
+    /* margin-top: 1em; */
+    transition-duration: 3s;
+    width: 92%;
+    margin-top: .5em; 
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+.upperdivider img {
+    position: absolute;
+    display: block;
+    margin-left: 45px;
+    text-align: center;
+    width: 1010px;
+    padding-bottom: 3px;
+}
+
+#logo {
+    width: 35%;
+    height: auto;
+    display: block; 
+    margin: auto; 
+    padding-top: 3em;
+    padding-bottom: 1em; 
+}
+
+#designhandmade {
+    display: inline-block;
+    /* margin: auto; */
+    width: 100%;
+    padding-top: .5em;
+    text-align: center;
+    padding-bottom: .5em;
+    background-color: #fff;
+}
+
+#design {
+    width: 61%;
+}
+
+#handmade {
+    width: 30%; 
+    padding-left: 6px;
+}
+
+#roundbuttons {
+    display: inline-block;
+    /* margin: auto; */
+    width: 1100px;
+    padding-top: .5em;
+    text-align: center;
+    margin-top: 4em;
+    z-index:3;
+    position: relative;
+    /* background-color: #fff; */
+}
+
+#round1 {
+    width: 25%;
+}
+
+#round2 {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 27%;
+}
+
+#round3 {
+    width: 25%; 
+}
+
+#homepp {
+    margin-top: .5em;
+    position: absolute;
+    display:inline-block;
+    text-align: center;
+    z-index: 2;
+    margin-left: 160px;
+    background-color: #fff;
+}
+
+#homepp img{
+    width: 60%;
+
+}
+
+.footerdivider img{
+    position: absolute;
+    display: block;
+    margin-left: 45px;
+    text-align: center;
+    width: 93%;
+}
+
+#tealbar {
+    background-color: #a4ddca; 
+
+}
+
+
+#demo {}
+
+#demos h2{
+    display: block; 
+    margin: auto;
+    text-align: center; 
+    text-transform: uppercase;
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    font-size: 16px;
+    color: #929395;
+}
+
+
+#demos #faqpink {
+    display: block; 
+    margin: auto;
+    text-align: center; 
+    text-transform: uppercase;
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    font-size: 25px;
+    color: #be69a1;
+}
+
+#explain {
+    padding-top: 4em;
+}
+
+#faq {
+    display: block;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    font-size: 20px;
+    color: #929395;
+    /* padding-bottom: 1em; */
+    padding-top: 1em;
+}
+
+area {
+    outline: none;
+}
+
+/**************/
+/* NAVIGATION */
+/****~~~~~~~~*/
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    margin-top: 20px;
+}
+
+.navbar {
+    border: none; 
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: 25px;
+    color: #929395;
+    text-decoration: none;
+    font-size: 13px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: #be69a1;
+    background-color: transparent;
+}
+
+#menutitle {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    color: #929395;
+    /* margin-bottom: 4px; */
+    /* text-align: center; */
+    /* display: block; */
+}
+
+
+@font-face {
+    font-family: 'contax_pro_45_ligregular';
+    src: url('font/contaxpro45lig-webfont.eot');
+    src: url('font/contaxpro45lig-webfont.eot?#iefix') format('embedded-opentype'),
+        url('font/contaxpro45lig-webfont.woff2') format('woff2'),
+        url('font/contaxpro45lig-webfont.woff') format('woff'),
+        url('font/contaxpro45lig-webfont.ttf') format('truetype'),
+        url('font/contaxpro45lig-webfont.svg#contax_pro_45_ligregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*
+nav {
+    height: 35px;
+    width: 100%;
+    padding-top: 8px;
+    text-align: center;
+}
+
+nav ul {
+    width: 100%;
+    display: inline-block;
+    padding: 0px;
+    margin-left: 95px;
+}
+
+.submenu {
+    display: none;
+}
+
+
+
+ul li {
+    display: table-cell;
+    text-align: center;
+}
+
+ul li a{
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: 25px;
+    color: #929395;
+    text-decoration: none;
+    font-size: 13px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+ul li a:hover {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    color: #be69a1;
+    text-decoration: none;
+    font-size: 13px;
+
+}
+
+ul li:hover ul a {
+    background: #f3f3f3;
+    color: #2f3036;
+    height: 40px;
+    line-height: 40px;
+}
+
+/*Hover state for dropdown links
+ul li:hover ul a:hover {
+    background: #19c589;
+    color: #fff;
+
+}
+
+/*Hide dropdown links until they are needed
+ul li ul {
+    display: none;
+    /* position:  absolute; 
+}
+
+/*Make dropdown links vertical
+ul li ul li {
+    display: block;
+    float: none;
+}
+
+ul li ul li a {
+    width: auto;
+    min-width: 100px;
+    padding: 0 20px;
+}
+
+/*Display the dropdown on hover
+ul li a:hover + .hidden, .hidden:hover {
+    display: block; 
+    font-size: .75em;
+    padding: 10px 0; 
+}
+
+
+/*Style 'show menu' label button and hide it by default
+.show-menu {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    color: #fff;
+    background: #a4ddca;
+    text-align: center;
+    padding: 10px 0;
+    /* margin-bottom: 10px; 
+    display: none;
+}
+
+/*Hide checkbox
+input[type=checkbox]{
+    display: none;
+}
+
+/*Show menu when invisible checkbox is checked
+input[type=checkbox]:checked ~ #menu{
+    display: block;
+}
+
+
+/****************************************FAQ********************/
+
+#supportbuttons {
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    /* padding-top: 4em; */
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+#supportbuttons2 {
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    padding-top: 4em;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.supportbutton {
+    width: 13%;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+}
+
+.supportbutton img {
+    width: 90%;
+    /* margin-left: 30px; */
+}
+
+
+.ajaxsupport {
+    display: block;
+    position: relative;
+    width: 90%;
+    margin-left: 50px;
+    margin-top: 2em;
+}
+
+.hiddenanswer {
+    display: none;
+}
+
+/* OLD SUPPORT PAGES 
+
+.faqquestions {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    font-size: 20px;
+    color: #be69a1;
+    /* padding-bottom: 1em; 
+}
+
+.faqquestions:hover {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    font-size: 20px;
+    color: #a4ddca;
+    text-decoration: none;
+
+}
+
+.faqquestions:visited {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    font-size: 20px;
+    color: #a4ddca;
+    text-decoration: none;
+}
+
+.faqquestions:focus {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    font-size: 20px;
+    color: #be69a1;
+    text-decoration: none;
+}
+
+#returnpolicy {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+}
+
+#returnpolicy a {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#returnpolicy a:hover {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+    color: #a4ddca; 
+}
+
+#wrongorder {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#wrongorder a {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#wrongorder a:hover {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+    color: #a4ddca; 
+}
+
+#processingtime {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#processingtime a {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#processingtime a:hover {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+    color: #a4ddca; 
+}
+
+#layouts {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#layouts a {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#layouts a:hover {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+    color: #a4ddca; 
+}
+
+#sizeplanner {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#sizeplanner a {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#sizeplanner a:hover {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+    color: #a4ddca; 
+}
+
+#laminatedtabs {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#laminatedtabs a {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#laminatedtabs a:hover {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+    color: #a4ddca; 
+}
+
+#changeinside {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#changeinside a {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#changeinside a:hover {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+    color: #a4ddca; 
+}
+
+#changespread {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#changespread a {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#changespread a:hover {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+    color: #a4ddca; 
+}
+
+#manypages {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#manypages a {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#manypages a:hover {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+    color: #a4ddca; 
+}
+
+#manynotepages {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#manynotepages a {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#manynotepages a:hover {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+    color: #a4ddca; 
+}
+
+#covermat {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#covermat a {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#covermat a:hover {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+    color: #a4ddca; 
+}
+
+#shipmethod {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#shipmethod a {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#shipmethod a:hover {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+    color: #a4ddca; 
+}
+
+#wrongaddress {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#wrongaddress a {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#wrongaddress a:hover {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+    color: #a4ddca; 
+}
+
+#shipbox {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#shipbox a {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#shipbox a:hover {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+    color: #a4ddca; 
+}
+
+#trackingupdate {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#trackingupdate a {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#trackingupdate a:hover {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+    color: #a4ddca; 
+}
+
+#shipcountries {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#shipcountries a {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#shipcountries a:hover {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+    color: #a4ddca; 
+}
+
+#intlship {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#intlship a {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#intlship a:hover {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+    color: #a4ddca; 
+}
+
+#cancelpolicy {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#cancelpolicy a {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#cancelpolicy a:hover {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+    color: #a4ddca; 
+}
+
+#phonenumber {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#phonenumber a {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#phonenumber a:hover {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+    color: #a4ddca; 
+}
+
+#changeorder {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#changeorder a {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#changeorder a:hover {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+    color: #a4ddca; 
+}
+
+#rushorder {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#rushorder a {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#rushorder a:hover {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+    color: #a4ddca; 
+}
+
+#makeplanner {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#makeplanner a {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#makeplanner a:hover {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+    color: #a4ddca; 
+}
+*/
+
+#cat {
+    display: block;
+    margin: auto;
+    padding-top: 2em;
+}
+
+#catcaption {
+    display:block;
+    margin: auto;
+    text-align: center;
+
+}
+
+map:focus {outline:0;}
+
+
+#contactbody {
+
+}
+
+#contactbody img {
+    display: block;
+    width: 80%;
+    margin: auto;
+    padding-top: 3em;
+}
+
+map {
+    /* display: inline; */
+    padding-right: 140px;
+}
+
+
+#contactcontent {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    font-size: 14px;
+    color: #929395;
+    text-decoration: none;
+}
+
+.purple {
+    color: #be69a1;
+}
+
+/**************ABOUT****************/
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 100%;
+    margin: auto;
+}
+
+.carousel {
+    position: absolute;
+    width: 93%;
+    /* border-radius: 25px; */
+}
+
+#myCarousel {
+    position: absolute;
+    margin-top: -15px;
+}
+
+.clickover {
+    position: relative;
+    margin-top: 5px;
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    font-size: 14px;
+    color: #929395;
+    text-align: left;
+    display: none;
+}
+
+.font {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    font-size: 14px;
+    color: #929395;
+    text-align: center;
+}
+
+#abouttxt {
+    padding-left: 75px;
+    /* padding-right: 55px; */
+    margin-top: 70px;
+    position: absolute;
+    width: 1000px;
+}
+
+.header img{
+    position: absolute;
+    display: inline-block;
+    /* margin-left: 45px; */
+    text-align: center;
+    width: 1010px;
+    margin-top: 20px;
+    margin-left: 45px;
+    margin-bottom: 20px;
+
+}
+
+#aboutimages {
+    position: relative;
+    width: 100%; 
+    margin-top: 300px;
+}
+
+#aboutimages img {
+    width: 80%;
+    display: block;
+    margin-left: 115px;
+}
+
+/**************FOOTER***************/
+
+#footer {
+    background-color: #fff;
+    margin-top: 3em;
+    position: relative;
+}
+
+#rightside {
+    float: right;
+    width: 50%;
+    background-color: #fff;
+    /* margin-bottom: 50px; */
+    padding-top: 5px;
+    margin-right: 6px;
+}
+
+#right {
+    float: right;
+    display: inline-block;
+    padding-right: 3em;
+}
+
+.socialicon {
+    width: 30px; 
+}
+
+#leftside {
+    float: left;
+    width: 20%;
+    display: inline-block;
+    background-color: #fff;
+    padding-left: 43px;
+    padding-top: 10px;
+}
+
+button {
+    width: 23%;
+    background: transparent;
+    border: none;
+    /* margin-top: -1px; */
+    margin-left: 200px;
+    /* padding-bottom: 10px; */
+}
+
+#joinnow img {
+    width: 70px;
+    position: relative;
+    /* display: inline-block; */
+    margin-left: 150px;
+    bottom: 2.5px;
+}
+
+.footertext {
+    font-family: 'contax_pro_45_ligregular', Helvetica, Arial, sans-serif;
+    font-size: .75em;
+    color: #929395;
+    /* padding-left: 43px; */
+    /* bottom: 10px; */
+}
+
+#changesreturns {
+    float:right;
+    color: #929395;
+    padding-top: 10px;
+}
+
+#rightabout {
+    float: right;
+    color: #929395;
+    padding-top: 10px;
+}
+
+#changesreturns a{
+    color: #929395;
+}
+
+#rightabout a{
+    color: #929395;
+}
+
+#socialbuttons {
+    /* padding-left: 140px; */
+    float: left;
+    width: 65%;
+    padding-top: 20px;
+    padding-left: 240px;
+}
+
+#socialbuttons img {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+#center {
+
+    width: 76px;float: right;
+
+    margin-right: 40px;}
+
+#right {
+
+    width: 76px;padding-right: .5em;/* margin-left: -90px; *//* margin-right: -10px; *//* height: 20px; */margin-bottom: 10px;}
+
+#right img{
+
+    margin-top: 5px;
+
+}
+
+#center img{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+
+
+#emailsignup p {
+    /* padding-left: 43px; */
+    font-size: 11px;
+    /* width: 150px; */
+    margin-top: 10px;
+}
+
+input:placeholder-shown {
+    font-family: 'contax_pro_45_ligregular', Helvetica, Arial, sans-serif;
+    font-size: .75em;
+}
+
+input {
+    width: 150px;
+    height: 20px;
+    margin-left: 43px;
+    float: left;
+    position: absolute;
+    /* padding-bottom: 10px; */
+    padding-left: 10px;
+}
+
+.footertext a {
+    text-decoration: none;
+    /* padding-top: 10px; */
+}
+
+#socialbuttons a {
+    text-decoration: none;
+}
+
+
+
+/***tealbar***/
+
+.tealbar {
+    height: 60px;
+    width: 100%;
+    background-color: #a4ddca;
+}
+
+
+#email a {
+    float: right;
+    text-decoration: none;
+    color: #fff;
+}
+
+#copywrite {
+    color: #fff;
+    z-index: 5;
+    margin-top: 20px;
+    padding-left: 45px;
+    position: relative;
+    font-family: 'contax_pro_45_ligregular', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    z-index: 5;
+    width: 60%;
+    float: left;
+}
+
+#email {
+    position: relative;
+    font-family: 'contax_pro_45_ligregular', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    /* z-index: 6; */
+    float: right;
+    padding-right: 3em;
+    width: 30%;
+    bottom: 30px;
+    color: #a4ddca;
+    bottom: auto;
+    /* margin-right: 0px; */
+    /* margin-left: 55px; */
+    margin-top: 20px;
+    /* margin-bottom: 0px; */
+    /* margin-right: 100px; */
+    /* padding-bottom: 0px; */
+}
+
+.upperdivider2 img {
+    position: absolute;
+    display: block;
+    margin-left: 45px;
+    text-align: center;
+    width: 1010px;
+    margin-top: 70px;
+} 
+
+br {
+    display: block;
+    line-height:22px;
+}
+
+#end {
+    width: 100%;
+    height: 75px;
+    z-index: 3;
+    background-color: #fff;
+    /* margin-top: 20px; */
+}
+
+
+/*>>>>>>>>>>ADD ON PAGES<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.sidenav {
+    position: relative;
+    float: left;
+    width: 20%;
+    /* height: 200px; */
+    text-align: left;
+    display: block;
+    margin-left: 0px;
+    padding-bottom: 10px;
+}
+
+.addonbutton {
+    width: 70%;
+    text-align: left;
+    margin-left: 60px;
+    padding-left: px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'contax_pro_45_ligregular', Helvetica, Arial, sans-serif;
+    font-size: 11px;
+    background-color: #fff;
+    border: none;
+    text-transform: uppercase;
+    color: #929395;
+}
+
+
+.addonbutton:hover {
+    width: 150px;
+    text-align: left;
+    margin-left: 40px;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'contax_pro_45_ligregular', Helvetica, Arial, sans-serif;
+    font-size: 11px;
+    background-image: url('images/plumarrow.png');
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position:center;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+}
+
+button:focus {outline:0;}
+
+
+.ajaxbody {
+    position: relative;
+    display: block;
+    float: right;
+    width: 80%;
+    /* margin-bottom: 10px; */
+    /* text-align: left; */
+}
+
+.ajax {
+    display: block;
+    width: 100%;
+    height: 650px;
+    background-color: #fff;
+    position: relative;
+    /* padding-bottom: 10px; */
+    /* padding-top: 30px; */
+    top: 30px;
+}
+
+.ajaxproducts {
+    display: block;
+    width: 100%;
+    height: 600px;
+    background-color: #fff;
+    position: relative;
+    /* padding-bottom: 10px; */
+    /* padding-top: 30px; */
+    top: 30px;
+    z-index: 1;
+}
+
+.addonimage img {
+    width: 70%;
+}
+
+.addonheader {
+    width: 95%;
+    padding-bottom: 2em;
+}
+
+.addonheader img {
+    width: 100%;
+}
+
+.limits {
+    width: 100%;
+    position: relative;
+}
+
+.limits img {
+    width: 76%;
+    display: block;
+    /* margin: auto; */
+    position: relative;
+    padding-top: 3em;
+    /* float: right; */
+    margin-left: 220px;
+    /* margin-top: 10px; */
+}
+
+
+.verticaldivider {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    /* position: absolute; */
+    /* width: 70%; */
+    display: block;
+}
+
+.verticaldivider img {
+    margin-bottom: 0px;
+    position: absolute;
+    width: 1000px;
+    top: 330px;
+    left: 525px;
+}
+
+
+
+
+
+
+
+/************************************************************************/
+/*Responsive Styles*/
+/************************************************************************/
+
+
+
+@media screen and (max-width: 992px){
+
+    .body {
+        width: 100%; 
+
+    }
+
+    #mobile {
+        display: block;
+        font-family: 'contax_pro_45_ligregular',sans-serif;
+        font-size: 14px;
+        color: #be69a1;
+        position: relative;
+    }
+    /***** MOBILE NAV ******/
+
+    /* nav {
+         width: 100%;
+ 
+     }
+ 
+     #navigation {
+         z-index: 4; 
+     }
+ 
+     /*Strip the ul of padding and list styling*/
+    /* ul {
+         list-style-type:none;
+         margin:0;
+         padding:0;
+         position: absolute;
+     }
+ 
+     /*Create a horizontal list with spacing*/
+    /* li {
+         display:inline-block;
+         float: left;
+         margin-right: 1px;
+ 
+     }
+ 
+ 
+     /*Hover state for top level links
+     li:hover a {
+         background: none;
+     }
+ 
+     /*Style for dropdown links
+     li:hover ul a {
+         background: #f3f3f3;
+         color: #2f3036;
+ 
+         height: 40px;
+         line-height: 40px;
+     }
+ 
+     /*Hover state for dropdown links
+     li:hover ul a:hover {
+         background: #fff;
+         color: #fff;
+     }
+ 
+     /*Hide dropdown links until they are needed
+     li ul {
+         display: none;
+     }
+ 
+     /*Make dropdown links vertical
+     li ul li {
+         display: block;
+         float: none;
+ 
+     }
+ 
+     /*Prevent text wrapping
+     li ul li a {
+         width: auto;
+         min-width: 100px;
+         padding: 0 20px;
+     }
+ 
+     /*Display the dropdown on hover
+     ul li a:hover + .hidden, .hidden:hover {
+         display: block;
+     }
+ 
+     /*Make dropdown links appear inline
+     ul {
+         position: static;
+         display: none;
+     }
+     /*Create vertical spacing
+     li {
+         margin-bottom: .5em;
+         width: 100%;
+         /* visibility: hidden; 
+         text-align: center;
+         padding-right: 2em;
+         margin-top: .5em;
+         /* padding-left: 6.5em; 
+         margin-left: -5.5em;
+     }
+     /*Make all menu links full width
+     ul li a {
+         width: 100%;
+         margin-right: 0px;
+         margin-left: 0px; 
+     }
+ 
+ 
+     .show-menu {
+         display:block;
+     }
+ 
+ 
+     .upperdivider img {
+         display: none; 
+     }    
+ 
+ 
+     /**************FOOTER***************/
+
+    #footer {
+        background-color: #fff;
+        /* margin-top: 70em; */
+        position: relative;
+        width: 100%;
+        display: block;
+        /* margin-top: 0px; */
+    }
+
+    #rightside {
+        float: none;
+        width: 100%;
+        background-color: #fff;
+        /* margin-bottom: 50px; */
+        /* padding-top: 5px; */
+        /* margin-right: 6px; */
+        position: relative;
+    }
+
+    #right {
+        float: right;
+        display: inline-block;
+        padding-right: 3em;
+    }
+
+    .socialicon {
+        width: 30px; 
+    }
+
+    #leftside {
+        float: none;
+        width: 100%;
+        display: inline-block;
+        background-color: #fff;
+        padding-left: 43px;
+        position: relative;
+    }
+
+    button {
+        width: 23%;
+        background: transparent;
+        border: none;
+        /* margin-top: -1px; */
+        margin-left: 200px;
+        /* padding-bottom: 10px; */
+    }
+
+    #joinnow img {
+        width: 70px;
+        position: relative;
+        /* display: inline-block; */
+        margin-left: 150px;
+        bottom: 2.5px;
+    }
+
+    .footertext {
+        font-family: 'contax_pro_45_ligregular', Helvetica, Arial, sans-serif;
+        font-size: .75em;
+        color: #929395;
+        /* padding-left: 43px; */
+        /* bottom: 10px; */
+    }
+
+    #changesreturns {
+        float:right;
+        color: #929395;
+        padding-top: 10px;
+    }
+
+    #rightabout {
+        float: right;
+        color: #929395;
+        padding-top: 10px;
+    }
+
+    #changesreturns a{
+        color: #929395;
+    }
+
+    #rightabout a{
+        color: #929395;
+    }
+
+    #socialbuttons {
+        padding-left: 3em;
+        /* float: none; */
+        width: 50%;
+        padding-top: 15px;
+        background-color: #fff;
+    }
+
+    #socialbuttons img {
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+
+    #center {
+
+        width: 76px;float: right;
+
+        margin-right: 40px;/* float: none; */background-color: #fff;}
+
+    #right {
+
+        width: 76px;
+        padding-right: .5em;
+        /* margin-left: -90px; *//* margin-right: -10px; *//* height: 20px; */margin-bottom: 10px;}
+
+    #right img{
+
+        margin-top: 5px;
+
+    }
+
+    #center img{
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+
+
+
+    #emailsignup p {
+        /* padding-left: 43px; */
+        font-size: 11px;
+        /* width: 150px; */
+        margin-top: 10px;
+    }
+
+    input:placeholder-shown {
+        font-family: 'contax_pro_45_ligregular', Helvetica, Arial, sans-serif;
+        font-size: .75em;
+    }
+
+    input {
+        width: 150px;
+        height: 20px;
+        margin-left: 43px;
+        float: left;
+        position: absolute;
+        /* padding-bottom: 10px; */
+        padding-left: 10px;
+    }
+
+    .footertext a {
+        text-decoration: none;
+        /* padding-top: 10px; */
+    }
+
+    #socialbuttons a {
+        text-decoration: none;
+    }
+
+
+
+    /***tealbar***/
+
+    .tealbar {
+        height: 5em;
+        width: 100%;
+        background-color: #a4ddca;
+        position: relative;
+        /* margin-top: 10em; */
+        /* display: none; */
+        clear: both;
+    }
+
+
+    #email a {
+        float: right;
+        text-decoration: none;
+        color: #fff;
+        /* margin-top: 20px; */
+    }
+
+    #copywrite {
+        color: #fff;
+        z-index: 5;
+        /* margin-top: 2.5em; */
+        /* padding-left: 45px; */
+        /* position: relative; */
+        font-family: 'contax_pro_45_ligregular', Helvetica, Arial, sans-serif;
+        font-size: .75em;
+        z-index: 5;
+        /* width: 40%; */
+        /* float: left; */
+    }
+
+    #email {
+        position: relative;
+        font-family: 'contax_pro_45_ligregular', Helvetica, Arial, sans-serif;
+        font-size: .75em;
+        margin-bottom: em;
+        z-index: 6;
+        /* float: right; */
+        /* padding-left: 0px; */
+        /* width: 100px; */
+        bottom: 30px;
+        color: #a4ddca;
+        /* bottom: auto; */
+        /* margin-right: 0px; */
+        /* margin-left: 755px; */
+        margin-top: 20px;
+        /* margin-bottom: 35px; */
+        /* margin-right: 40px; */
+        /* margin: auto; */
+        top: 1px;
+    }
+
+    .upperdivider2 img {
+        position: absolute;
+        display: block;
+        margin-left: 45px;
+        text-align: center;
+        width: 1010px;
+        margin-top: 70px;
+    } 
+
+    br {
+        display: block;
+        line-height:22px;
+    }
+
+    #end {
+        width: 100%;
+        height: 75px;
+        z-index: 3;
+        background-color: #fff;
+        /* margin-top: 20px; */
+        position: relative;
+        display: block;
+    }
+
+    #homepp {
+        background-color: #fff;
+    }
+    #banner {
+        background-color: #fff;
+        padding-top: 0px;
+        margin-top:2em;
+
+    }
+
+    #signup {
+        font-family: 'contax_pro_45_ligregular',sans-serif;
+        height: auto;
+        display: block;
+        position: relative;
+        padding-top: 3em;
+        /* padding-bottom: 1em; */
+        padding-left: 1em;
+
+    }
+
+    #signup a {
+        text-decoration: none;
+        color: #be69a1;
+        position: relative;
+        font-size: 1em;
+    }
+
+    #cart {
+        color: #DADADC;
+    }
+
+    /***** INDEX ******/
+
+    #homepp {
+        display: none; 
+    }
+
+    #roundbuttons {
+        width: 100%;
+    }
+
+    /***** ABOUT ******/
+
+    .header img {
+        width: 100%;
+        margin-left: 0px;
+        background-color: #fff;
+        padding-bottom: 10px;
+        position: relative; 
+        margin-bottom: 0px;
+    }
+
+    #abouttxt {
+        background-color: #fff;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 1em;
+    }
+
+    #aboutimages img {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .header {
+        position: relative; 
+        display: block; 
+    }
+
+    /***** PRODUCTS ******/
+
+    .addonimages img{
+        width: 100%;
+    }
+    .ajaxproducts {
+        position: relative;
+        height: auto;
+    }  
+
+    #myCarousel {
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+
+    .sidenav {
+        position: relative;
+        /* padding-top: 10em; */
+        width: 100%;
+        /* height: 200px; */
+        text-align: center;
+        display: inline-block;
+        margin-left: 1em;
+        /* padding-bottom: 10px; */
+        padding-right: 30px;
+        /* background-color: #fff; */
+        float: none;
+        padding-bottom: 0px;
+    }
+
+    .addonbutton {
+        text-align: center;
+        width: 80px;
+        background-color: #a4ddca;
+        height: 70px;
+        margin-top: 10px;
+        color: #fff;
+        font-size: .75em;
+        margin-left: 1em;
+        display: table-column;
+        position: relative;
+        vertical-align: top;
+    }
+
+    .addonbutton:hover {
+        background-image: none;
+        text-align: center;
+        width: 80px;
+        background-color: #c2c3c5;
+        height: 70px;
+        margin-top: 10px;
+        color: #fff;
+        font-size: .75em;
+        margin-left: 1em;
+        display: table-column;
+        position: relative;
+        vertical-align: top;
+        padding-left: 5px;
+    }
+
+
+
+    .ajaxbody {
+        width: 95%;
+        position: relative;
+        background-color: #fff;
+        float: none;
+        margin-left: 2em;
+    }
+
+    .clickover {
+        display: none;
+    }
+
+    .limits {
+        display: none; 
+    }
+
+    .fullnav {
+
+        display: none;
+    }
+
+    #mobilenav {
+        display: block; 
+        visibility: visible; 
+    }
+
+    .upperdivider, .upperdivider2 {
+        display: none;
+        position: relative;
+    }
+
+    .footer {
+        position: relative;
+    }
+
+    .footerdivider {
+        display: none;
+    }
+
+    #color {
+        color: #be69a1;
+        color: #a4ddca;
+
+    }
+
+    /********** ADDONS ***********/
+
+    .ajax {
+
+        position: relative;
+        height: auto;}
+
+    #end {
+        /* display: none; */
+        clear: both;
+        height: 0px;
+    }
+
+
+
+}
+
+/*******************************************MOBILE PHONE***********************/
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2){
+
+    .body {
+        width: 90%;
+    }
+    
+    #logo {
+        width: 100%;
+    }
+
+    #banner {
+        width: 100%;
+    }
+    
+    #mobile {
+        display: block;
+        font-family: 'contax_pro_45_ligregular',sans-serif;
+        font-size: 14px;
+        color: #be69a1;
+        position: relative;
+    }
+    
+    .navbar-default .navbar-nav>li>a {
+    color: #777;
+    font-size: 18px;
+    }
+   
+    #menutitle {
+        font-size: 18px;
+    }
+    /***************INDEX****************/
+    
+    #designhandmade {
+        display: none; 
+    }
+ 
+     /**************FOOTER***************/
+
+    #footer {
+        background-color: #fff;
+        /* margin-top: 70em; */
+        position: relative;
+        width: 100%;
+        display: block;
+        /* margin-top: 0px; */
+    }
+
+    #rightside {
+        float: none;
+        width: 100%;
+        background-color: #fff;
+        /* margin-bottom: 50px; */
+        /* padding-top: 5px; */
+        /* margin-right: 6px; */
+        position: relative;
+    }
+
+    #right {
+        float: right;
+        display: inline-block;
+        padding-right: 3em;
+    }
+
+    .socialicon {
+        width: 30px; 
+    }
+
+    #leftside {
+        float: none;
+        width: 100%;
+        display: none;
+        background-color: #fff;
+        padding-left: 70px;
+        position: relative;
+    }
+
+    button {
+        width: 23%;
+        background: transparent;
+        border: none;
+        /* margin-top: -1px; */
+        margin-left: 200px;
+        /* padding-bottom: 10px; */
+    }
+
+    #joinnow img {
+        width: 70px;
+        position: relative;
+        /* display: inline-block; */
+        margin-left: 150px;
+        bottom: 2.5px;
+    }
+
+    .footertext {
+        font-family: 'contax_pro_45_ligregular', Helvetica, Arial, sans-serif;
+        font-size: .75em;
+        color: #929395;
+        /* padding-left: 43px; */
+        /* bottom: 10px; */
+    }
+
+    #changesreturns {
+        float: right;
+        color: #929395;
+        padding-top: 0px;
+        width: 100%;
+        font-size: 1em;
+        position: relative;
+        padding-right: 00px;
+    }
+
+    #rightabout {
+        clear: both;
+        color: #929395;
+        padding-top: 10px;
+        font-size: 1em;
+        width: 100%;
+        text-align: center;
+    }
+
+    #changesreturns a{
+        color: #929395;
+    }
+
+    #rightabout a{
+        color: #929395;
+        width: 100%;
+    }
+
+    #socialbuttons {
+        padding-left: 0px;
+        /* float: none; */
+        width: 100%;
+        /* padding-top: 15px; */
+        background-color: #fff;
+        text-align: center;
+    }
+
+    #socialbuttons img {
+        padding-left: 2px;
+        padding-right: 2px;
+        width: 20%;
+    }
+
+    #center {width: 100%;float: right;margin-right: 0px;/* float: none; */background-color: #fff;}
+
+    #right {
+        width: 100%;
+        padding-right: 0px;
+        /* margin-left: -90px; */
+        /* margin-right: -10px; */
+        /* height: 20px; */
+        margin-bottom: 10px;
+        text-align: center;
+        }
+
+    #right img{display: none;}
+
+    #center img{
+        margin-left: 10px;
+        margin-top: 5px;
+        display: none;
+    }
+
+
+
+    #emailsignup p {
+        /* padding-left: 43px; */
+        font-size: 11px;
+        /* width: 150px; */
+        margin-top: 10px;
+    }
+
+    input:placeholder-shown {
+        font-family: 'contax_pro_45_ligregular', Helvetica, Arial, sans-serif;
+        font-size: .75em;
+    }
+
+    input {
+        width: 150px;
+        height: 20px;
+        margin-left: 43px;
+        float: left;
+        position: absolute;
+        /* padding-bottom: 10px; */
+        padding-left: 10px;
+    }
+
+    .footertext a {
+        text-decoration: none;
+        /* padding-top: 10px; */
+    }
+
+    #socialbuttons a {
+        text-decoration: none;
+    }
+
+
+
+    /***tealbar***/
+
+    .tealbar {
+        height: 5em;
+        width: 100%;
+        background-color: #a4ddca;
+        position: relative;
+        /* margin-top: 10em; */
+        /* display: none; */
+        clear: both;
+    }
+
+
+    #email a {
+        float: right;
+        text-decoration: none;
+        color: #fff;
+        /* margin-top: 20px; */
+    }
+
+    #copywrite {
+        color: #fff;
+        z-index: 5;
+        /* margin-top: 2.5em; */
+        /* padding-left: 45px; */
+        /* position: relative; */
+        font-family: 'contax_pro_45_ligregular', Helvetica, Arial, sans-serif;
+        font-size: .75em;
+        z-index: 5;
+        /* width: 40%; */
+        /* float: left; */
+    }
+
+    #email {
+        position: relative;
+        font-family: 'contax_pro_45_ligregular', Helvetica, Arial, sans-serif;
+        font-size: .75em;
+        margin-bottom: em;
+        z-index: 6;
+        /* float: right; */
+        /* padding-left: 0px; */
+        /* width: 100px; */
+        bottom: 30px;
+        color: #a4ddca;
+        /* bottom: auto; */
+        /* margin-right: 0px; */
+        /* margin-left: 755px; */
+        margin-top: 20px;
+        /* margin-bottom: 35px; */
+        /* margin-right: 40px; */
+        /* margin: auto; */
+        top: 1px;
+    }
+
+    .upperdivider2 img {
+        position: absolute;
+        display: block;
+        margin-left: 45px;
+        text-align: center;
+        width: 1010px;
+        margin-top: 70px;
+    } 
+
+    br {
+        display: block;
+        line-height:22px;
+    }
+
+    #end {
+        width: 100%;
+        height: 75px;
+        z-index: 3;
+        background-color: #fff;
+        /* margin-top: 20px; */
+        position: relative;
+        display: block;
+    }
+
+    #homepp {
+        background-color: #fff;
+    }
+    #banner {
+        background-color: #fff;
+        padding-top: 0px;
+        margin-top:2em;
+
+    }
+
+    #signup {
+        font-family: 'contax_pro_45_ligregular',sans-serif;
+        height: auto;
+        display: block;
+        position: relative;
+        padding-top: 3em;
+        /* padding-bottom: 1em; */
+        padding-left: 1em;
+
+    }
+
+    #signup a {
+        text-decoration: none;
+        color: #be69a1;
+        position: relative;
+        font-size: 1em;
+    }
+
+    #cart {
+        color: #DADADC;
+    }
+
+    /***** INDEX ******/
+
+    #banner {
+        display: none;
+    }
+    
+    #homepp {
+        display: none; 
+    }
+
+    #roundbuttons {
+        width: 100%;
+    }
+    
+    #round1 {
+        width: 70%;
+        padding-top: 0px;
+    }
+    
+    #round2 {
+        width: 75%;
+        padding-top: 1em;
+    }
+    
+    #round3 {
+        width: 70%;
+        padding-top: 1em;
+    }
+
+    /***** ABOUT ******/
+
+    .header img {
+        width: 100%;
+        margin-left: 0px;
+        background-color: #fff;
+        padding-bottom: 10px;
+        position: relative; 
+        margin-bottom: 0px;
+    }
+
+    #abouttxt {
+        background-color: #fff;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 1em;
+    }
+
+    #aboutimages img {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .header {
+        position: relative; 
+        display: block; 
+    }
+
+    /***** PRODUCTS ******/
+
+    .addonimages img{
+        width: 100%;
+    }
+    .ajaxproducts {
+        position: relative;
+        height: auto;
+    }  
+
+    #myCarousel {
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+
+    .sidenav {
+        position: relative;
+        /* padding-top: 10em; */
+        width: 100%;
+        /* height: 200px; */
+        text-align: center;
+        display: inline-block;
+        margin-left: 1em;
+        /* padding-bottom: 10px; */
+        padding-right: 30px;
+        /* background-color: #fff; */
+        float: none;
+        padding-bottom: 0px;
+    }
+
+    .addonbutton {
+        text-align: center;
+        width: 80px;
+        background-color: #a4ddca;
+        height: 70px;
+        margin-top: 10px;
+        color: #fff;
+        font-size: .75em;
+        margin-left: 1em;
+        display: table-column;
+        position: relative;
+        vertical-align: top;
+    }
+
+    .addonbutton:hover {
+        background-image: none;
+        text-align: center;
+        width: 80px;
+        background-color: #c2c3c5;
+        height: 70px;
+        margin-top: 10px;
+        color: #fff;
+        font-size: .75em;
+        margin-left: 1em;
+        display: table-column;
+        position: relative;
+        vertical-align: top;
+        padding-left: 5px;
+    }
+
+
+
+    .ajaxbody {
+        width: 100%;
+        position: relative;
+        background-color: #fff;
+        float: none;
+        margin-left: 0px;
+        text-align: center;
+        margin-right: 0px;
+    }
+
+    .clickover {
+        display: none;
+    }
+
+    .limits {
+        display: none; 
+    }
+
+    .fullnav {
+
+        display: none;
+    }
+
+    #mobilenav {
+        display: block; 
+        visibility: visible; 
+    }
+
+    .upperdivider, .upperdivider2 {
+        display: none;
+        position: relative;
+    }
+
+    .footer {
+        position: relative;
+    }
+
+    .footerdivider {
+        display: none;
+        /* width: 327px; */
+    }
+
+    #color {
+        color: #be69a1;
+        color: #a4ddca;
+
+    }
+
+    /********** ADDONS ***********/
+
+    .ajax {
+
+        position: relative;
+        height: auto;}
+
+    #end {
+        /* display: none; */
+        clear: both;
+        height: 0px;
+    }
+
+    .footerdivider img {
+        display:none;
+    }
+
+}
+
+
