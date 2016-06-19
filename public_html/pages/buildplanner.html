@@ -1,0 +1,192 @@
+
+<div class='text-center beta col-md-12'>
+
+    <h3>PROTOTYPE TESTING PLUM PAPER SHOP</h3>
+    <h5>third party shop to be implemented</h5>
+</div>
+
+<div class="row start">
+    <div class="col-md-6">
+
+        <h2>Customize Your Planner!</h2>
+
+        <button class="accordion">Choose Pattern</button>
+        <div class="panel">
+            <div class="row">
+                <div class="col-md-3">
+                    <input type="checkbox" ng-click="goLily = !goLily"><img src="images/build/thumbnail.png" class="coverthumbs">
+                </div>
+                <div class="col-md-3">
+                    <input type="checkbox" ng-click="goWater = !goWater"><img src="images/build/thumbnail4.png"  class="coverthumbs">
+                </div>
+                <div class="col-md-3">
+                    <input type="checkbox" ng-click="goVal = !goVal"> <img src="images/build/thumbnail3.png"  class="coverthumbs">
+                </div>
+                <div class="col-md-3">
+                    <input type="checkbox" ng-click="goLucy = !goLucy"><img src="images/build/thumbnail2.png"  class="coverthumbs">
+                </div>
+            </div>
+        </div>
+
+        <button class="accordion">Enter Personalization</button>
+        <div class="panel">
+            <p>Enter Your Name (Type exactly as you would like printed):</p>
+            <p>Name: <input type="text" ng-model="name"></p>
+            <br>
+            <p>Select Background Color:</p>
+            <div class="row">
+                <div class="col-md-3">
+                    <input type="checkbox" ng-click="goBlack = !goBlack"><p class="backname">Black</p>
+                </div>
+                <div class="col-md-3">
+                    <input type="checkbox" ng-click="goMint = !goMint"><p class="backname">Mint</p>
+                </div>
+                <div class="col-md-3">
+                    <input type="checkbox" ng-click="goRed = !goRed"><p class="backname">Red</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <button class="accordion">Choose Layout</button>                    
+        <div id="foo" class="panel">
+            <div class="row">
+                <div class="col-md-6 bottoms">
+
+                    <input type="radio" name="layout">
+
+                    <button class="btn btn-secondary infocirc" data-toggle="modal" data-target=".verticall">
+                        Vertical Layout <i class="fa fa-info-circle " aria-hidden="true"></i></button>
+                    <div class="modal fade verticall" tabindex="-1" role="dialog" aria-hidden="true" >
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content text-center">
+                                <img src="images/build/vertical.jpg" alt="vertical" class="modalimages">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6">
+                    <input type="radio" name="layout">
+                    <button class="btn btn-secondary infocirc" data-toggle="modal" data-target=".horizontall">
+                        Horizontal Layout <i class="fa fa-info-circle " aria-hidden="true"></i></button>
+                    <div class="modal fade horizontall" tabindex="-1" role="dialog" aria-hidden="true" >
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content text-center">
+                                <img src="images/build/horizontal.jpg" alt="horizontal" class="modalimages">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <input type="radio" name="layout">
+                    <button class="btn btn-secondary infocirc" data-toggle="modal" data-target=".monthlyl">
+                        Monthly Layout <i class="fa fa-info-circle " aria-hidden="true"></i></button>
+                    <div class="modal fade monthlyl" tabindex="-1" role="dialog" aria-hidden="true" >
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content text-center">
+                                <img src="images/build/monthly.jpg" alt="monthly" class="modalimages">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <input type="radio" name="layout">
+                    <button class="btn btn-secondary infocirc" data-toggle="modal" data-target=".studentl">
+                        Student Layout <i class="fa fa-info-circle " aria-hidden="true"></i></button>
+                    <div class="modal fade studentl" tabindex="-1" role="dialog" aria-hidden="true" >
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content text-center">
+                                <img src="images/build/student.jpg" alt="student" class="modalimages">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <input type="radio" name="layout">
+                    <button class="btn btn-secondary infocirc" data-toggle="modal" data-target=".teacherl">
+                        Teacher Layout <i class="fa fa-info-circle " aria-hidden="true"></i></button>
+                    <div class="modal fade teacherl" tabindex="-1" role="dialog" aria-hidden="true" >
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content text-center">
+                                <img src="images/build/teacher.jpg" alt="teacher" class="modalimages">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <button class="accordion">Choose Start Month</button>
+        <div class="panel">
+            <br><input type="month">
+            <br>
+            <br>
+
+        </div>
+
+        <button class="accordion">Add To Cart</button>
+        <div class="panel">
+            <div class="col-md-12">
+                <p class="text-center"> If you are satisfied with your planner, please click below to add it to your cart:</p>
+                <button class="btn btn-secondary cartcirc" data-toggle="modal" data-target=".cart1">
+                    <i class="fa fa-cart-arrow-down fa-3x" aria-hidden="true"></i></button>
+                <div class="modal fade cart1" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content text-center">
+                            <h2>YOU HAVE SUCCESSFULLY ADDED YOUR PLANNER TO YOUR CART</h2>
+                            <h5>Thank you CS364 for testing out my shop UI.</h5>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <script>
+                    var acc = document.getElementsByClassName("accordion");
+                    var i;
+
+                    for (i = 0; i < acc.length; i++) {
+                        acc[i].onclick = function () {
+                            this.classList.toggle("active");
+                            this.nextElementSibling.classList.toggle("show");
+                        }
+                    }
+        </script>
+
+    </div>
+    <div class="col-md-6">
+        <div>
+            <div class="col-md-12">
+                <h2 ng-bind="name" class="plannername text-center"></h2>
+            </div>
+            <div class="col-md-12">
+                <img ng-src="images/build/black.png" class="img-responsive nameback" ng-if="goBlack">
+                <img ng-src="images/build/mint.png" class="img-responsive nameback" ng-if="goMint">
+                <img ng-src="images/build/red.png" class="img-responsive nameback" ng-if="goRed">
+                <img ng-src="images/build/white.png" class="img-responsive nameback" ng-if="goWhite">
+            </div>
+            <img ng-src="images/build/blackwatercolor.png" class="img-responsive thumbnails" ng-if="goLily">
+            <img ng-src="images/build/watercolor.png" class="img-responsive thumbnails" ng-if="goWater">
+            <img ng-src="images/build/valerie.png" class="img-responsive thumbnails" ng-if="goVal">
+            <img ng-src="images/build/lucy.png" class="img-responsive thumbnails" ng-if="goLucy">
+            <img src="images/build/blank.png" alt="blank builder" class="img-responsive planner">
+
+        </div>
+    </div>
+</div>
+

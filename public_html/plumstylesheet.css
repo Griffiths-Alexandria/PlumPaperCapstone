@@ -13,7 +13,7 @@ and open the template in the editor.
 }
 
 body {
-   
+
     /* height: 1200px; */
     z-index: -1;
     margin-bottom: 0px;
@@ -24,75 +24,172 @@ body {
     color: #be69a1;
     background-color: #fff;
 }
+/**build planner page 371**/
+.beta {
+    background-color: mintcream;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
 
+.start {
+    padding-top: 15px;
+}
 
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd;
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+}
+
+div.panel.show {
+    opacity: 1;
+    max-height: 500px;
+}
+
+.planner {
+    position: relative; 
+    margin-top: 30px;
+}
+
+.thumbnails {
+    width: 60%;
+    z-index: 1;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 69px;
+}
+
+.plannername {
+    z-index: 3;
+    position: absolute;
+    margin-top: 400px;
+    width: 100%;
+    margin-left: -15px;
+    color: white;
+}
+
+.nameback {
+    z-index: 2;
+    position: absolute;
+    margin-top: 388px;
+    width: 65%;
+    margin-left: 80px;   
+}
+
+.backname {
+    margin-left: 20px;
+}
+
+.coverthumbs{
+    width: 100%;
+}
+
+.modalimages {
+    width: 70%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+input[type="radio"] {
+    margin-top: 10px !important;
+    width: 20px !important;
+}
+
+.infocirc {
+    margin-left: 10px;
+}
+
+.cartcirc {
+    margin-left: 38%; 
+}
 /******PRODUCT LANDING PAGE*******/
 .view {
-   width: 300px;
-   height: 200px;
-   margin: 10px;
-   float: left;
-   border: 10px solid #fff;
-   overflow: hidden;
-   position: relative;
-   text-align: center;
-   -webkit-box-shadow: 1px 1px 2px #e6e6e6;
-   -moz-box-shadow: 1px 1px 2px #e6e6e6;
-   box-shadow: 1px 1px 2px #e6e6e6;
-   cursor: default;
-   background: #a4ddca url(../images/bgimg.jpg) no-repeat center center;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    float: left;
+    border: 10px solid #fff;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    -webkit-box-shadow: 1px 1px 2px #e6e6e6;
+    -moz-box-shadow: 1px 1px 2px #e6e6e6;
+    box-shadow: 1px 1px 2px #e6e6e6;
+    cursor: default;
+    background: #a4ddca url(../images/bgimg.jpg) no-repeat center center;
 }
 .view .mask,.view .content {
-   width: 300px;
-   height: 200px;
-   position: absolute;
-   overflow: hidden;
-   top: 0;
-   left: -10px;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: -10px;
 }
 .view img {
-   display: block;
-   position: relative;
+    display: block;
+    position: relative;
 }
 .view h2 {
-   text-transform: uppercase;
-   color: #fff;
-   text-align: center;
-   position: relative;
-   font-size: 17px;
-   padding: 10px;
-   background: rgba(0, 0, 0, 0.8);
-   margin: 20px 0 0 0;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 20px 0 0 0;
 }
 .view p {
-   font-family: Georgia, serif;
-   font-style: italic;
-   font-size: 12px;
-   position: relative;
-   color: #fff;
-   padding: 10px 20px 20px;
-   text-align: center;
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 12px;
+    position: relative;
+    color: #fff;
+    padding: 10px 20px 20px;
+    text-align: center;
 }
 .view a.info {
-   display: inline-block;
-   text-decoration: none;
-   padding: 7px 14px;
-   background: #777777;
-   color: #fff;
-   text-transform: uppercase;
-   -webkit-box-shadow: 0 0 1px #777777;
-   -moz-box-shadow: 0 0 1px #777777;
-   box-shadow: 0 0 1px #777777;
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    background: #777777;
+    color: #fff;
+    text-transform: uppercase;
+    -webkit-box-shadow: 0 0 1px #777777;
+    -moz-box-shadow: 0 0 1px #777777;
+    box-shadow: 0 0 1px #777777;
 }
 .view a.info:hover {
-   -webkit-box-shadow: 0 0 5px #777777;
-   -moz-box-shadow: 0 0 5px #777777;
-   box-shadow: 0 0 5px #777777;
+    -webkit-box-shadow: 0 0 5px #777777;
+    -moz-box-shadow: 0 0 5px #777777;
+    box-shadow: 0 0 5px #777777;
 }
 
 .view-tenth img { 
-	transform: scaleY(1);
-	transition: all 0.7s ease-in-out;
+    transform: scaleY(1);
+    transition: all 0.7s ease-in-out;
 }
 .view .view-tenth .mask { 
     background-color: rgba(255, 231, 179, 0.3); 
@@ -121,11 +218,11 @@ body {
 }
 
 .view-tenth:hover img { 
-	transform: scale(10);
+    transform: scale(10);
     opacity: 0;
 }
 .view-tenth:hover .mask { 
-	opacity: 1;
+    opacity: 1;
 }																			 
 .view-tenth:hover h2,
 .view-tenth:hover p,
@@ -183,7 +280,7 @@ body {
     background-color: #fff;
     z-index:0;
     margin-top: -2em;
-    
+
     /* height: 1300px; */
 }
 
@@ -403,9 +500,9 @@ a.rightcontrol {
 }
 
 #desc {
-   /* float: right; */
+    /* float: right; */
     width: 100%;
-  /*  margin-right: 70px;*/
+    /*  margin-right: 70px;*/
     color: #929395;
     display: block;
     margin: auto;
@@ -1664,13 +1761,14 @@ button:focus {outline:0;}
 .limits {
     width: 100%;
     position: relative;
-        display: block;
+    display: block;
     /* margin: auto; */
 
     padding-top: 3em;
     /* float: right; */
     margin-left: 220px;
     height: 200px;
+    visibility: hidden;
 }
 
 .limits img {
@@ -1683,6 +1781,7 @@ button:focus {outline:0;}
     margin-left: 220px;
     height: 200px;
     /* margin-top: 10px; */
+    visibility: hidden;
 }
 
 
@@ -1727,21 +1826,21 @@ button:focus {outline:0;}
         text-transform: uppercase;
         text-shadow: none;
     }
-    
-    #myCarousel {
-    position: absolute;
-    margin-top: 5px;
-}
 
-.ajaxbody {
-    position: relative;
-    display: block;
-    float: right;
-    width: 80%;
-    margin-bottom: 10px;
-    text-align: left;
-    margin-top: 5px;
-}
+    #myCarousel {
+        position: absolute;
+        margin-top: 5px;
+    }
+
+    .ajaxbody {
+        position: relative;
+        display: block;
+        float: right;
+        width: 80%;
+        margin-bottom: 10px;
+        text-align: left;
+        margin-top: 5px;
+    }
 
 
 
@@ -2389,19 +2488,19 @@ button:focus {outline:0;}
     #home {
         padding-left: 15px;
     }
-    
+
     .bundle {
         width: 40%
     }
-    
+
     #topshop {
         width: 100%;
     }
-    
+
     #middleshop {
         width: 100%
     }
-    
+
     #bottomshop {
         width: 100%; 
     }
@@ -2784,21 +2883,21 @@ and (-webkit-min-device-pixel-ratio: 2){
         position: relative; 
         display: block; 
     }
-    
+
     /***** SHOP *****/
-    
+
     #topshop {
-        
+
     }
-    
+
     #middleshop {
-        
+
     }
-    
+
     #bottomshop {
-        
+
     }
-    
+
     .bundle {
         width: 100%; 
     }
