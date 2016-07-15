@@ -14,39 +14,40 @@
         <div class="panel">
             <div class="row">
                 <div class="col-md-3">
-                    <input type="checkbox" ng-click="goLily = !goLily"><img src="images/build/thumbnail.png" class="coverthumbs">
+                    <input type="checkbox" name="cover" ng-click="goLily = !goLily"><img src="images/build/thumbnail.png" class="coverthumbs">
                 </div>
                 <div class="col-md-3">
-                    <input type="checkbox" ng-click="goWater = !goWater"><img src="images/build/thumbnail4.png"  class="coverthumbs">
+                    <input type="checkbox" name="cover" ng-click="goWater = !goWater"><img src="images/build/thumbnail4.png"  class="coverthumbs">
                 </div>
                 <div class="col-md-3">
-                    <input type="checkbox" ng-click="goVal = !goVal"> <img src="images/build/thumbnail3.png"  class="coverthumbs">
+                    <input type="checkbox" name="cover" ng-click="goVal = !goVal"> <img src="images/build/thumbnail3.png"  class="coverthumbs">
                 </div>
                 <div class="col-md-3">
-                    <input type="checkbox" ng-click="goLucy = !goLucy"><img src="images/build/thumbnail2.png"  class="coverthumbs">
+                    <input type="checkbox" name="cover" ng-click="goLucy = !goLucy"><img src="images/build/thumbnail2.png"  class="coverthumbs">
                 </div>
             </div>
         </div>
 
         <button class="accordion">Enter Personalization</button>
         <div class="panel">
+            <br>
             <p>Enter Your Name (Type exactly as you would like printed):</p>
             <p>Name: <input type="text" ng-model="name"></p>
             <br>
             <p>Select Background Color:</p>
             <div class="row">
                 <div class="col-md-3">
-                    <input type="checkbox" ng-click="goBlack = !goBlack"><p class="backname">Black</p>
+                    <input type="checkbox" name="bar" ng-click="goBlack = !goBlack"><p class="backname">Black</p>
                 </div>
                 <div class="col-md-3">
-                    <input type="checkbox" ng-click="goMint = !goMint"><p class="backname">Mint</p>
+                    <input type="checkbox" name="bar" ng-click="goMint = !goMint"><p class="backname">Mint</p>
                 </div>
                 <div class="col-md-3">
-                    <input type="checkbox" ng-click="goRed = !goRed"><p class="backname">Red</p>
+                    <input type="checkbox" name="bar" ng-click="goRed = !goRed"><p class="backname">Red</p>
                 </div>
 
             </div>
-
+            <br><br>
         </div>
 
         <button class="accordion">Choose Layout</button>                    
@@ -128,10 +129,35 @@
 
         </div>
 
-        <button class="accordion">Choose Start Month</button>
+        <button class="accordion">Your Planner</button>
         <div class="panel">
-            <br><input type="month">
+            <br> <p>Start Month</p>
+            <select name="month" id="month" size="1">
+                <option value="01" selected>January 2017</option>
+                <option value="02">February 2017</option>
+                <option value="03">March 2017</option>
+                <option value="04">April 2017</option>
+                <option value="05">May 2017</option>
+                <option value="06">June 2017</option>
+                <option value="07">July 2017</option>
+                <option value="08">August 2017</option>
+                <option value="09">September 2017</option>
+                <option value="10">October 2017</option>
+                <option value="11">November 2017</option>
+                <option value="12">December 2017</option>
+            </select>
             <br>
+            <br><p>Planner Length</p>
+            <select name="planner length" id="month" size="1">
+                <option value="01" selected>6 Months</option>
+                <option value="02">12 Months</option>
+                <option value="03">13 Months</option>
+                <option value="04">14 Months</option>
+                <option value="05">15 Months</option>
+                <option value="06">16 Months</option>
+                <option value="07">17 Months</option>
+                <option value="08">18 Months</option>
+            </select>
             <br>
 
         </div>
@@ -146,7 +172,7 @@
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content text-center">
                             <h2>YOU HAVE SUCCESSFULLY ADDED YOUR PLANNER TO YOUR CART</h2>
-                            <h5>Thank you CS364 for testing out my shop UI.</h5>
+                            <h5>Thank you CS371 for testing out my shop UI.</h5>
 
                         </div>
                     </div>

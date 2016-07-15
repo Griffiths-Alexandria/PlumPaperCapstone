@@ -371,10 +371,30 @@ ul, ol {
     color: #fff;
     background-color: #a4ddca;
     border-color: #a4ddca;
-    width: 80%; 
+    width: 40%;
+    /* text-align: left; */
+    
 }
 
 .shopbutton:hover {
+    color: #fff;
+    background-color: #be69a1;
+    border-color: #be69a1;
+}
+
+.infobutton {
+    color: white;
+    background-color: #a4ddca;
+    /* border-color: #a4ddca; */
+    width: 50%;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.infobutton:hover {
     color: #fff;
     background-color: #be69a1;
     border-color: #be69a1;
